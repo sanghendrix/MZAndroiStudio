@@ -1,0 +1,1090 @@
+
+04/24 00:27:58: Launching 'IAP' on samsung SM-N960U1.
+Install successfully finished in 23 s 317 ms.
+$ adb shell am start -n "com.sanghendrix.intosamomor/com.rpgmaker.game.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 23977 on device 'samsung-sm_n960u1-265af5ec3a057ece'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/rix.intosamomo: The ClassLoaderContext is a special shared library.
+I/FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+I/FirebaseInitProvider: FirebaseApp initialization successful
+D/WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+I/DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:89 and remote module com.google.android.gms.measurement.dynamite:88
+I/DynamiteModule: Selected local version of com.google.android.gms.measurement.dynamite
+I/rix.intosamomo: The ClassLoaderContext is a special shared library.
+I/rix.intosamomo: The ClassLoaderContext is a special shared library.
+W/rix.intosamomo: Accessing hidden method Landroid/view/Window;->getInsetsController()Landroid/view/WindowInsetsController; (blacklist, linking, denied)
+W/rix.intosamomo: Accessing hidden method Landroid/view/Window;->getInsetsController()Landroid/view/WindowInsetsController; (blacklist, linking, denied)
+D/AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+V/FA: onActivityCreated
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+W/System: ClassLoader referenced unknown path: 
+D/PhoneWindow: forceLight changed to true [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4274 com.android.internal.policy.DecorView.updateColorViews:1547 com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged:3252 android.view.Window.setFlags:1153 com.android.internal.policy.PhoneWindow.generateLayout:2474 
+I/MultiWindowDecorSupport: [INFO] isPopOver = false
+I/MultiWindowDecorSupport: updateCaptionType >> DecorView@7fd36c1[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@7fd36c1[]
+W/rix.intosamomo: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden field Lsun/misc/Unsafe;->theUnsafe:Lsun/misc/Unsafe; (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->objectFieldOffset(Ljava/lang/reflect/Field;)J (greylist,core-platform-api, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->arrayBaseOffset(Ljava/lang/Class;)I (greylist,core-platform-api, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->arrayIndexScale(Ljava/lang/Class;)I (greylist, linking, allowed)
+V/FA: App measurement collection enabled
+V/FA: App measurement enabled for app package, google app id: com.sanghendrix.intosamomor, 1:850714123321:android:080e304cf95f122ca341e8
+I/FA: App measurement initialized, version: 77000
+I/FA: To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+I/FA: To enable faster debug mode event logging run:
+      adb shell setprop debug.firebase.analytics.app com.sanghendrix.intosamomor
+D/FA: Debug-level message logging enabled
+I/WebViewFactory: Loading com.google.android.webview version 112.0.5615.136 (code 561513633)
+W/linker: Warning: "/data/app/com.google.android.webview-_oYwfnZUM6o0Hci2gOQzfw==/base.apk!/lib/arm64-v8a/libmonochrome.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+W/rix.intosamomo: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+I/cr_WVCFactoryProvider: Loaded version=112.0.5615.136 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+D/FA: Resetting session stitching token to not null
+V/FA: Connecting to remote service
+I/cr_LibraryLoader: Successfully loaded native library
+I/cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+V/FA: Connection attempt already in progress
+V/FA: Connection attempt already in progress
+E/chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/com.sanghendrix.intosamomor/cache/WebView/Default/HTTP Cache/Code Cache/wasm: No such file or directory (2)
+E/chromium: [ERROR:simple_file_enumerator.cc(21)] opendir /data/user/0/com.sanghendrix.intosamomor/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+E/chromium: [ERROR:simple_index_file.cc(615)] Could not reconstruct index from disk
+E/chromium: [ERROR:simple_index_file.cc(615)] Could not reconstruct index from disk
+D/ConnectivityManager: requestNetwork; CallingUid : 11340, CallingPid : 23977
+D/ConnectivityManager: requestNetwork; CallingUid : 11340, CallingPid : 23977
+W/StorageUtil: no auth token for request
+D/NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+V/FA: Activity resumed, time: 142563613
+W/NetworkRequest: no auth token for request
+W/NetworkRequest: No App Check token for request.
+I/FA: Tag Manager is not found and thus will not be used
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+D/DynamitePackage: Instantiated singleton DynamitePackage.
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+V/FA: Connection attempt already in progress
+V/FA: Connection attempt already in progress
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getUnsafe()Lsun/misc/Unsafe; (greylist,core-platform-api, linking, allowed)
+D/ConnectivityManager: requestNetwork; CallingUid : 11340, CallingPid : 23977
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/Ads: Updating ad debug logging enablement.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapInt(Ljava/lang/Object;JII)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObjectVolatile(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapLong(Ljava/lang/Object;JJJ)Z (greylist, linking, allowed)
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+W/rix.intosamomo: Accessing hidden method Llibcore/io/Memory;->peekLong(JZ)J (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Llibcore/io/Memory;->pokeLong(JJZ)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Llibcore/io/Memory;->pokeInt(JIZ)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Llibcore/io/Memory;->peekInt(JZ)I (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Llibcore/io/Memory;->pokeByte(JB)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Llibcore/io/Memory;->peekByte(J)B (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Llibcore/io/Memory;->pokeByteArray(J[BII)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Llibcore/io/Memory;->peekByteArray(J[BII)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, reflection, allowed)
+W/rix.intosamomo: Accessing hidden field Ljava/nio/Buffer;->address:J (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getLong(Ljava/lang/Object;J)J (greylist,core-platform-api, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, linking, allowed)
+D/ConnectivityManager: requestNetwork; CallingUid : 11340, CallingPid : 23977
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/ConnectionStatusConfig: Dynamic lookup for intent failed for action: com.google.android.gms.leibniz.events.service.START
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObjectVolatile(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+W/GmsClient: unable to connect to service: com.google.android.gms.leibniz.events.service.START on com.google.android.gms
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/ConnectionStatusConfig: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.CACHE
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/ViewRootImpl@3fec100[MainActivity]: setView = com.android.internal.policy.DecorView@7fd36c1 TM=true MM=false
+I/ViewRootImpl@3fec100[MainActivity]: stopped(true) old=false
+V/FA: Screen exposed for less than 1000 ms. Event not sent. time: 677
+V/FA: Connection attempt already in progress
+V/FA: Activity paused, time: 142564292
+D/TcpOptimizer: TcpOptimizer-ON
+W/Ads: Update ad debug logging enablement as false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V (greylist, linking, allowed)
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,720,1480) new=(0,0,720,1480) req=(720,1480)8 dur=10 res=0x1 s={false 0} ch=false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 6
+W/Ads: Not retrying to fetch app settings
+W/ConnectionStatusConfig: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+D/FA: Application going to the background
+D/libmdf: libmdf v2.9.0.0 On 64bit PLATFORM
+V/FA: Inactivity, disconnecting from the service
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+D/SensorManager: registerListener :: 28, lsm6dsm Accelerometer Non-wakeup, 66667, 0,  
+V/FA: Connecting to remote service
+W/rix.intosamomo: Accessing hidden method Landroid/media/AudioManager;->getOutputLatency(I)I (greylist, reflection, allowed)
+W/cr_media: registerBluetoothIntentsIfNeeded: Requires BLUETOOTH permission
+I/AdrenoGLES: QUALCOMM build                   : fdd61e0, I20154638fb
+    Build Date                       : 10/07/20
+    OpenGL ES Shader Compiler Version: EV031.27.05.01
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.8.3.R1.10.00.00.520.058
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+I/AdrenoGLES: Build Config                     : S P 8.0.11 AArch64
+I/AdrenoGLES: PFP: 0x016ee187, ME: 0x00000000
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 1
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+W/AudioCapabilities: Unsupported mime audio/x-ima
+W/AudioCapabilities: Unsupported mime audio/x-ape
+W/AudioCapabilities: Unsupported mime audio/evrc
+W/AudioCapabilities: Unsupported mime audio/mpeg-L1
+W/AudioCapabilities: Unsupported mime audio/mpeg-L2
+W/AudioCapabilities: Unsupported mime audio/qcelp
+W/AudioCapabilities: Unsupported mime audio/x-ms-wma
+W/AudioCapabilities: Unsupported mime audio/evrc
+W/AudioCapabilities: Unsupported mime audio/qcelp
+W/VideoCapabilities: Unsupported mime video/mp43
+W/VideoCapabilities: Unrecognized profile/level 1/32 for video/mp4v-es
+W/VideoCapabilities: Unrecognized profile/level 32768/2 for video/mp4v-es
+W/VideoCapabilities: Unrecognized profile/level 32768/64 for video/mp4v-es
+W/VideoCapabilities: Unsupported mime video/wvc1
+W/VideoCapabilities: Unsupported mime video/x-ms-wmv7
+W/VideoCapabilities: Unsupported mime video/x-ms-wmv8
+W/Ads: GET LOCATION COMPILED
+I/ExoPlayerImpl: Init c6c853e [AndroidXMedia3/1.0.0-beta03] [crownqlteue, SM-N960U1, samsung, 29]
+W/rix.intosamomo: Accessing hidden method Landroid/media/AudioTrack;->getLatency()I (greylist, reflection, allowed)
+I/Ads: ExoPlayerAdapter initialized.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+D/CCodec: allocate(c2.android.aac.decoder)
+I/Codec2Client: Available Codec2 services: "default" "software"
+I/Codec2Client: Creating a Codec2 client to service "default"
+I/Codec2Client: Client to Codec2 service "default" created
+I/CCodec: setting up 'default' as default (vendor) store
+I/Codec2Client: Creating a Codec2 client to service "default"
+I/Codec2Client: Client to Codec2 service "default" created
+E/Codec2Client: createComponent(c2.android.aac.decoder) -- call failed: NOT_FOUND.
+I/Codec2Client: Creating a Codec2 client to service "software"
+I/Codec2Client: Client to Codec2 service "software" created
+I/CCodec: Created component [c2.android.aac.decoder]
+D/CCodecConfig: read media type: audio/mp4a-latm
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+I/CCodecConfig: query failed after returning 16 values (BAD_INDEX)
+D/CCodecConfig: c2 config is Dict {
+      c2::u32 coded.aac-packaging.value = 0
+      c2::u32 coded.bitrate.value = 64000
+      c2::u32 coded.pl.level = 0
+      c2::u32 coded.pl.profile = 8192
+      c2::float coding.drc.attenuation-factor.value = 1
+      c2::float coding.drc.boost-factor.value = 1
+      c2::i32 coding.drc.compression-mode.value = 3
+      c2::i32 coding.drc.effect-type.value = 3
+      c2::float coding.drc.encoded-level.value = 0.25
+      c2::float coding.drc.reference-level.value = -16
+      c2::u32 input.buffers.max-size.value = 8192
+      c2::u32 input.delay.value = 0
+      string input.media-type.value = "audio/mp4a-latm"
+      c2::u32 output.delay.value = 2
+      string output.media-type.value = "audio/raw"
+      c2::u32 raw.channel-count.value = 1
+      c2::u32 raw.sample-rate.value = 44100
+    }
+D/CCodecConfig: config failed => CORRUPTED
+D/CCodecConfig: c2 config is Dict {
+      c2::u32 coded.aac-packaging.value = 0
+      c2::u32 coded.bitrate.value = 64000
+      c2::u32 coded.pl.level = 0
+      c2::u32 coded.pl.profile = 8192
+      c2::float coding.drc.attenuation-factor.value = 1
+      c2::float coding.drc.boost-factor.value = 1
+      c2::i32 coding.drc.compression-mode.value = 3
+      c2::i32 coding.drc.effect-type.value = 3
+      c2::float coding.drc.encoded-level.value = 0.25
+      c2::float coding.drc.reference-level.value = -16
+      c2::u32 input.buffers.max-size.value = 8192
+      c2::u32 input.delay.value = 0
+      string input.media-type.value = "audio/mp4a-latm"
+      c2::u32 output.delay.value = 2
+      string output.media-type.value = "audio/raw"
+      c2::u32 raw.channel-count.value = 1
+      c2::u32 raw.sample-rate.value = 24000
+    }
+W/Codec2Client: query -- param skipped: index = 1107298332.
+D/CCodec: client requested max input size 495, which is smaller than what component recommended (8192); overriding with component recommendation.
+W/CCodec: This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+D/CCodec: setup formats input: AMessage(what = 0x00000000) = {
+      int32_t channel-count = 1
+      int32_t level = 0
+      int32_t max-input-size = 8192
+      string mime = "audio/mp4a-latm"
+      int32_t profile = 2
+      int32_t sample-rate = 24000
+      int64_t durationUs = 0
+    } and output: AMessage(what = 0x00000000) = {
+      int32_t channel-count = 1
+      string mime = "audio/raw"
+      int32_t sample-rate = 24000
+    }
+W/Codec2Client: query -- param skipped: index = 1342179345.
+W/Codec2Client: query -- param skipped: index = 2415921170.
+W/Codec2Client: query -- param skipped: index = 1610614798.
+D/CCodecBufferChannel: [c2.android.aac.decoder#380] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+I/CCodecBufferChannel: [c2.android.aac.decoder#380] Created output block pool with allocatorID 16 => poolID 732 - OK
+D/CCodecBufferChannel: [c2.android.aac.decoder#380] Configured output block pool ids 732 => OK
+E/C2AllocatorIon: >>>SEC mapUsage Mapper1 2000000
+E/ion: ioctl c0044901 failed with code -1: Invalid argument
+E/C2AllocatorIon: >>>SEC C2AllocatorIon::mapUsage ion_is_legacy++++++++
+E/C2AllocatorIon: >>>SEC mapUsage	0, 2000000
+I/ACodec:  [] Now uninitialized
+I/ACodec: [] onAllocateComponent
+I/OMXClient: IOmx service obtained
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Loaded
+D/SurfaceUtils: connecting to surface 0x71da06b010, reason connectToSurface
+I/MediaCodec: [OMX.qcom.video.decoder.avc] setting surface generation to 24552449
+D/SurfaceUtils: disconnecting from surface 0x71da06b010, reason connectToSurface(reconnect)
+D/SurfaceUtils: connecting to surface 0x71da06b010, reason connectToSurface(reconnect)
+I/ACodec: app-pid(23977)
+I/ACodec: [OMX.qcom.video.decoder.avc] OMX_QCOM_FramePacking_OnlyOneCompleteFrame is setting
+I/ACodec: Success to set FramePackingMode
+I/SmartFittingClass: Create SmartFitting Version 2.0
+I/SmartFittingClass: Init, [State:UNINITIALIZED] pid: 23977
+I/SmartFittingClass: InitialCheck()
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Loaded->Idle
+D/SurfaceUtils: set up nativeWindow 0x71da06b010 for 1080x1920, color 0x7fa30c06, rotation 0, usage 0x20402900
+I/ACodec: [OMX.qcom.video.decoder.avc] configureOutputBuffersFromNativeWindow setBufferCount : 17, minUndequeuedBuffers : 5
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Idle->Executing
+I/MediaCodec: setCodecState state : 0
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Executing
+I/ACodec: [OMX.qcom.video.decoder.avc] calling emptyBuffer 1 w/ codec specific data, size : 29
+W/Gralloc3: mapper 3.x is not supported
+W/Gralloc3: allocator 3.x is not supported
+I/ACodec: [OMX.qcom.video.decoder.avc] calling emptyBuffer 2 w/ codec specific data, size : 9
+D/AudioTrack: setVolume(1.000000, 1.000000) pid : 23977
+I/SmartFittingClass: InitialCheck, WhiteListStatus returned from CodecSolution : 0
+I/SmartFittingClass: InitialCheck, [State:FINISHED] SmartFitting has not been activated by App. Shut Down SmartFitting.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/MediaCodec: setCodecState state : 0
+V/FA: Inactivity, disconnecting from the service
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+V/FA: Connecting to remote service
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 1
+W/Ads: JS: 没有找到指定的语言en-us，但是找到了该语言的父集语言，将使用父集语言en (https://play.mintegral.com/hyplug/MtgLoading.js:1)
+I/chromium: [INFO:CONSOLE(1)] "没有找到指定的语言en-us，但是找到了该语言的父集语言，将使用父集语言en", source: https://play.mintegral.com/hyplug/MtgLoading.js (1)
+I/Ads: JS: 派发自身事件:created (https://play.mintegral.com/hyplug/Adchoice.js:1)
+I/chromium: [INFO:CONSOLE(1)] "派发自身事件:created", source: https://play.mintegral.com/hyplug/Adchoice.js (1)
+I/Ads: JS: 派发自身事件:mounted (https://play.mintegral.com/hyplug/Adchoice.js:1)
+I/chromium: [INFO:CONSOLE(1)] "派发自身事件:mounted", source: https://play.mintegral.com/hyplug/Adchoice.js (1)
+I/AAudio: AAudioStreamBuilder_openStream() called ----------------------------------------
+I/AudioStreamBuilder: rate   =  48000, channels  = 2, format   = 5, sharing = SH, dir = OUTPUT
+I/AudioStreamBuilder: device =      0, sessionId = -1, perfMode = 12, callback: ON with frames = 192
+I/AudioStreamBuilder: usage  =      1, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+D/: PlayerBase::PlayerBase()
+D/AudioStreamTrack: open(), request notificationFrames = -8, frameCount = 0
+I/AudioTrack: createTrack_l(-1614246540): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 1536
+D/AudioTrack: setVolume(1.000000, 1.000000) pid : 23977
+W/AudioStreamTrack: open() flags changed from 0x00000104 to 0x00000004
+I/AAudio: AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+D/AAudio: AAudioStream_requestStart(s#1) called --------------
+D/: PlayerBase::start() from IPlayer
+D/AAudio: AAudioStream_requestStart(s#1) returned 0 ---------
+D/AudioStreamLegacy: onAudioDeviceUpdate() devId 3 => 3
+I/Ads: JS: new AudioContextMV ：2 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:17)
+I/chromium: [INFO:CONSOLE(17)] "new AudioContextMV ：2", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (17)
+I/Ads: JS: Cocos Creator v2.4.3 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "Cocos Creator v2.4.3", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/plframe.html (3)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+V/FA: Inactivity, disconnecting from the service
+I/Ads: JS: 执行自定义事件: PLAYABLE:domComplete (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: PLAYABLE:domComplete", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 执行自定义事件: PLAYABLE:windowOnload (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: PLAYABLE:windowOnload", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/Ads: JS: type=omidSupported&time=2023-04-23T17%3A29%3A04.416Z&message=Found%20OMID%20JS%20environment&event=undefined (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSupported&time=2023-04-23T17%3A29%3A04.416Z&message=Found%20OMID%20JS%20environment&event=undefined", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidSessionStarted&time=2023-04-23T17%3A29%3A03.956Z&message=Session%20started&event=%7B%22adSessionId%22%3A%22ab02ec41-3f82-4570-ad76-7eb3169764a7%22%2C%22timestamp%22%3A1682270943956%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.26-google_20211025%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%220.4%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%2C%22verificationParameters%22%3A%22%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSessionStarted&time=2023-04-23T17%3A29%3A03.956Z&message=Session%20started&event=%7B%22adSessionId%22%3A%22ab02ec41-3f82-4570-ad76-7eb3169764a7%22%2C%22timestamp%22%3A1682270943956%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.26-google_20211025%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%220.4%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%2C%22verificationParameters%22%3A%22%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidMeasurementBelow&time=2023-04-23T17%3A29%3A04.112Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%22ab02ec41-3f82-4570-ad76-7eb3169764a7%22%2C%22timestamp%22%3A1682270944112%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A411.4285583496094%2C%22height%22%3A845.7142944335938%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22notFound%22%5D%2C%22geometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidMeasurementBelow&time=2023-04-23T17%3A29%3A04.112Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%22ab02ec41-3f82-4570-ad76-7eb3169764a7%22%2C%22timestamp%22%3A1682270944112%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A411.4285583496094%2C%22height%22%3A845.7142944335938%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22notFound%22%5D%2C%22geometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidLoaded&time=2023-04-23T17%3A29%3A03.997Z&message=Loaded%20event%20occurred&event=%7B%22adSessionId%22%3A%22ab02ec41-3f82-4570-ad76-7eb3169764a7%22%2C%22timestamp%22%3A1682270943997%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidLoaded&time=2023-04-23T17%3A29%3A03.997Z&message=Loaded%20event%20occurred&event=%7B%22adSessionId%22%3A%22ab02ec41-3f82-4570-ad76-7eb3169764a7%22%2C%22timestamp%22%3A1682270943997%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: mv 强制声音为0 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:285)
+I/chromium: [INFO:CONSOLE(285)] "mv 强制声音为0", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (285)
+I/Ads: JS: mv 不进行链接 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:298)
+I/chromium: [INFO:CONSOLE(298)] "mv 不进行链接", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (298)
+I/Ads: JS: mv createBufferSource (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:140)
+I/chromium: [INFO:CONSOLE(140)] "mv createBufferSource", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (140)
+I/Ads: JS: 游戏还没开始 不允停止声音 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:229)
+I/chromium: [INFO:CONSOLE(229)] "游戏还没开始 不允停止声音", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (229)
+I/Ads: JS: 游戏还没开始 不允许播放声音 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:175)
+I/chromium: [INFO:CONSOLE(175)] "游戏还没开始 不允许播放声音", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (175)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: Success to load scene: db://assets/Scene/helloworld.fire (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "Success to load scene: db://assets/Scene/helloworld.fire", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/plframe.html (3)
+I/Ads: JS: 执行自定义事件: gameReady (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: gameReady", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+D/AAudio: AAudioStream_requestStop(s#1) called
+D/AudioTrack: stop(1872): called with 1434432 frames delivered
+D/: PlayerBase::stop() from IPlayer
+D/AAudio: AAudioStream_close(s#1) called ---------------
+D/AAudio: AAudioStream_close(s#1) returned 0 ---------
+E/WebViewAssetLoader: Error opening asset path: index.html
+    java.io.FileNotFoundException: index.html
+        at android.content.res.AssetManager.nativeOpenAsset(Native Method)
+        at android.content.res.AssetManager.open(AssetManager.java:875)
+        at androidx.webkit.internal.AssetHelper.openAsset(AssetHelper.java:123)
+        at androidx.webkit.WebViewAssetLoader$AssetsPathHandler.handle(WebViewAssetLoader.java:189)
+        at androidx.webkit.WebViewAssetLoader.shouldInterceptRequest(WebViewAssetLoader.java:571)
+        at com.rpgmaker.game.MainActivity$LocalContentWebViewClient.shouldInterceptRequest(MainActivity.kt:395)
+        at aa.a(chromium-TrichromeWebViewGoogle.aab-stable-561513633:80)
+        at org.chromium.android_webview.AwContentsBackgroundThreadClient.shouldInterceptRequestFromNative(chromium-TrichromeWebViewGoogle.aab-stable-561513633:15)
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/ConnectionStatusConfig: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.CACHE
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+W/ConnectionStatusConfig: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/Ads: Not retrying to fetch app settings
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,720,1480) new=(0,0,720,1480) req=(720,1480)8 dur=9 res=0x1 s={false 0} ch=false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Landroid/view/View;->getViewRootImpl()Landroid/view/ViewRootImpl; (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden field Landroid/view/View$AttachInfo;->mVisibleInsets:Landroid/graphics/Rect; (greylist, reflection, allowed)
+W/rix.intosamomo: Accessing hidden field Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo; (greylist, reflection, allowed)
+W/Ads: Not retrying to fetch app settings
+V/FA: Connecting to remote service
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+V/FA: Connection attempt already in progress
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+V/FA: Connection attempt already in progress
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 3
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+W/Ads: JS: 没有找到指定的语言en-us，但是找到了该语言的父集语言，将使用父集语言en (https://play.mintegral.com/hyplug/MtgLoading.js:1)
+I/chromium: [INFO:CONSOLE(1)] "没有找到指定的语言en-us，但是找到了该语言的父集语言，将使用父集语言en", source: https://play.mintegral.com/hyplug/MtgLoading.js (1)
+W/Ads: GET LOCATION COMPILED
+I/ExoPlayerImpl: Init 5bea498 [AndroidXMedia3/1.0.0-beta03] [crownqlteue, SM-N960U1, samsung, 29]
+I/Ads: ExoPlayerAdapter initialized.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+D/CCodec: allocate(c2.android.aac.decoder)
+I/Codec2Client: Creating a Codec2 client to service "default"
+I/Codec2Client: Client to Codec2 service "default" created
+I/CCodec: setting up 'default' as default (vendor) store
+I/CCodec: Created component [c2.android.aac.decoder]
+D/CCodecConfig: read media type: audio/mp4a-latm
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+I/CCodecConfig: query failed after returning 16 values (BAD_INDEX)
+D/CCodecConfig: c2 config is Dict {
+      c2::u32 coded.aac-packaging.value = 0
+      c2::u32 coded.bitrate.value = 64000
+      c2::u32 coded.pl.level = 0
+      c2::u32 coded.pl.profile = 8192
+      c2::float coding.drc.attenuation-factor.value = 1
+      c2::float coding.drc.boost-factor.value = 1
+      c2::i32 coding.drc.compression-mode.value = 3
+      c2::i32 coding.drc.effect-type.value = 3
+      c2::float coding.drc.encoded-level.value = 0.25
+      c2::float coding.drc.reference-level.value = -16
+      c2::u32 input.buffers.max-size.value = 8192
+      c2::u32 input.delay.value = 0
+      string input.media-type.value = "audio/mp4a-latm"
+      c2::u32 output.delay.value = 2
+      string output.media-type.value = "audio/raw"
+      c2::u32 raw.channel-count.value = 1
+      c2::u32 raw.sample-rate.value = 44100
+    }
+D/CCodecConfig: config failed => CORRUPTED
+D/CCodecConfig: c2 config is Dict {
+      c2::u32 coded.aac-packaging.value = 0
+      c2::u32 coded.bitrate.value = 64000
+      c2::u32 coded.pl.level = 0
+      c2::u32 coded.pl.profile = 8192
+      c2::float coding.drc.attenuation-factor.value = 1
+      c2::float coding.drc.boost-factor.value = 1
+      c2::i32 coding.drc.compression-mode.value = 3
+      c2::i32 coding.drc.effect-type.value = 3
+      c2::float coding.drc.encoded-level.value = 0.25
+      c2::float coding.drc.reference-level.value = -16
+      c2::u32 input.buffers.max-size.value = 8192
+      c2::u32 input.delay.value = 0
+      string input.media-type.value = "audio/mp4a-latm"
+      c2::u32 output.delay.value = 2
+      string output.media-type.value = "audio/raw"
+      c2::u32 raw.channel-count.value = 1
+      c2::u32 raw.sample-rate.value = 24000
+    }
+W/Codec2Client: query -- param skipped: index = 1107298332.
+D/CCodec: client requested max input size 718, which is smaller than what component recommended (8192); overriding with component recommendation.
+W/CCodec: This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+D/CCodec: setup formats input: AMessage(what = 0x00000000) = {
+      int32_t channel-count = 1
+      int32_t level = 0
+      int32_t max-input-size = 8192
+      string mime = "audio/mp4a-latm"
+      int32_t profile = 2
+      int32_t sample-rate = 24000
+      int64_t durationUs = 0
+    } and output: AMessage(what = 0x00000000) = {
+      int32_t channel-count = 1
+      string mime = "audio/raw"
+      int32_t sample-rate = 24000
+    }
+W/Codec2Client: query -- param skipped: index = 1342179345.
+W/Codec2Client: query -- param skipped: index = 2415921170.
+W/Codec2Client: query -- param skipped: index = 1610614798.
+D/BufferPoolAccessor: bufferpool2 0x716e299220 : 6(49152 size) total buffers - 5(40960 size) used buffers - 1/7 (recycle/alloc) - 6/19 (fetch/transfer)
+D/CCodecBufferChannel: [c2.android.aac.decoder#77] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+I/CCodecBufferChannel: [c2.android.aac.decoder#77] Created output block pool with allocatorID 16 => poolID 733 - OK
+D/CCodecBufferChannel: [c2.android.aac.decoder#77] Configured output block pool ids 733 => OK
+E/C2AllocatorIon: >>>SEC mapUsage Mapper1 2000000
+E/C2AllocatorIon: >>>SEC C2AllocatorIon::mapUsage ion_is_legacy++++++++
+E/C2AllocatorIon: >>>SEC mapUsage	0, 2000000
+I/ACodec:  [] Now uninitialized
+I/ACodec: [] onAllocateComponent
+I/OMXClient: IOmx service obtained
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Loaded
+D/SurfaceUtils: connecting to surface 0x713cd15010, reason connectToSurface
+I/MediaCodec: [OMX.qcom.video.decoder.avc] setting surface generation to 24552450
+D/SurfaceUtils: disconnecting from surface 0x713cd15010, reason connectToSurface(reconnect)
+D/SurfaceUtils: connecting to surface 0x713cd15010, reason connectToSurface(reconnect)
+I/ACodec: app-pid(23977)
+I/ACodec: [OMX.qcom.video.decoder.avc] OMX_QCOM_FramePacking_OnlyOneCompleteFrame is setting
+I/ACodec: Success to set FramePackingMode
+I/SmartFittingClass: Create SmartFitting Version 2.0
+I/SmartFittingClass: Init, [State:UNINITIALIZED] pid: 23977
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Loaded->Idle
+I/SmartFittingClass: InitialCheck()
+I/SmartFittingClass: InitialCheck, WhiteListStatus returned from CodecSolution : 0
+I/SmartFittingClass: InitialCheck, [State:FINISHED] SmartFitting has not been activated by App. Shut Down SmartFitting.
+I/ACodec: setupNativeWindowSizeFormatAndUsage - gralloc_usage_priv_uncached off
+D/SurfaceUtils: set up nativeWindow 0x713cd15010 for 1080x1920, color 0x7fa30c06, rotation 0, usage 0x402900
+I/ACodec: [OMX.qcom.video.decoder.avc] configureOutputBuffersFromNativeWindow setBufferCount : 17, minUndequeuedBuffers : 5
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Idle->Executing
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Executing
+I/MediaCodec: setCodecState state : 0
+I/ACodec: [OMX.qcom.video.decoder.avc] calling emptyBuffer 1 w/ codec specific data, size : 28
+I/ACodec: [OMX.qcom.video.decoder.avc] calling emptyBuffer 2 w/ codec specific data, size : 9
+D/AudioTrack: setVolume(1.000000, 1.000000) pid : 23977
+I/AAudio: AAudioStreamBuilder_openStream() called ----------------------------------------
+I/AudioStreamBuilder: rate   =  48000, channels  = 2, format   = 5, sharing = SH, dir = OUTPUT
+I/AudioStreamBuilder: device =      0, sessionId = -1, perfMode = 12, callback: ON with frames = 192
+I/AudioStreamBuilder: usage  =      1, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+D/: PlayerBase::PlayerBase()
+D/AudioStreamTrack: open(), request notificationFrames = -8, frameCount = 0
+I/AudioTrack: createTrack_l(1872): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 1536
+D/AudioTrack: setVolume(1.000000, 1.000000) pid : 23977
+W/AudioStreamTrack: open() flags changed from 0x00000104 to 0x00000004
+I/AAudio: AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#2 ----------------
+D/AAudio: AAudioStream_requestStart(s#2) called --------------
+D/: PlayerBase::start() from IPlayer
+D/AudioStreamLegacy: onAudioDeviceUpdate() devId 3 => 3
+D/AAudio: AAudioStream_requestStart(s#2) returned 0 ---------
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/Ads: JS: 派发自身事件:created (https://play.mintegral.com/hyplug/Adchoice.js:1)
+I/chromium: [INFO:CONSOLE(1)] "派发自身事件:created", source: https://play.mintegral.com/hyplug/Adchoice.js (1)
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/Ads: JS: 派发自身事件:mounted (https://play.mintegral.com/hyplug/Adchoice.js:1)
+I/chromium: [INFO:CONSOLE(1)] "派发自身事件:mounted", source: https://play.mintegral.com/hyplug/Adchoice.js (1)
+I/Ads: JS: new AudioContextMV ：2 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:17)
+I/chromium: [INFO:CONSOLE(17)] "new AudioContextMV ：2", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (17)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+I/Ads: JS: type=omidSupported&time=2023-04-23T17%3A29%3A49.800Z&message=Found%20OMID%20JS%20environment&event=undefined (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSupported&time=2023-04-23T17%3A29%3A49.800Z&message=Found%20OMID%20JS%20environment&event=undefined", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/MediaCodec: setCodecState state : 0
+I/Ads: JS: 执行自定义事件: PLAYABLE:domComplete (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: PLAYABLE:domComplete", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 执行自定义事件: PLAYABLE:windowOnload (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: PLAYABLE:windowOnload", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: type=omidSupported&time=2023-04-23T17%3A29%3A49.971Z&message=Found%20OMID%20JS%20environment&event=undefined (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSupported&time=2023-04-23T17%3A29%3A49.971Z&message=Found%20OMID%20JS%20environment&event=undefined", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidSessionStarted&time=2023-04-23T17%3A29%3A49.184Z&message=Session%20started&event=%7B%22adSessionId%22%3A%228fa66c16-ddb6-4d6a-88fb-f39a9876ad15%22%2C%22timestamp%22%3A1682270989184%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.26-google_20211025%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%220.4%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22onePixel%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%2C%22verificationParameters%22%3A%22%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSessionStarted&time=2023-04-23T17%3A29%3A49.184Z&message=Session%20started&event=%7B%22adSessionId%22%3A%228fa66c16-ddb6-4d6a-88fb-f39a9876ad15%22%2C%22timestamp%22%3A1682270989184%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.26-google_20211025%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%220.4%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22onePixel%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%2C%22verificationParameters%22%3A%22%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidMeasurementBelow&time=2023-04-23T17%3A29%3A49.272Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%228fa66c16-ddb6-4d6a-88fb-f39a9876ad15%22%2C%22timestamp%22%3A1682270989272%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A411.4285583496094%2C%22height%22%3A845.7142944335938%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22hidden%22%5D%2C%22geometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidMeasurementBelow&time=2023-04-23T17%3A29%3A49.272Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%228fa66c16-ddb6-4d6a-88fb-f39a9876ad15%22%2C%22timestamp%22%3A1682270989272%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A411.4285583496094%2C%22height%22%3A845.7142944335938%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22hidden%22%5D%2C%22geometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidLoaded&time=2023-04-23T17%3A29%3A49.197Z&message=Loaded%20event%20occurred&event=%7B%22adSessionId%22%3A%228fa66c16-ddb6-4d6a-88fb-f39a9876ad15%22%2C%22timestamp%22%3A1682270989197%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22impressionType%22%3A%22onePixel%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidLoaded&time=2023-04-23T17%3A29%3A49.197Z&message=Loaded%20event%20occurred&event=%7B%22adSessionId%22%3A%228fa66c16-ddb6-4d6a-88fb-f39a9876ad15%22%2C%22timestamp%22%3A1682270989197%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22impressionType%22%3A%22onePixel%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: Cocos Creator v2.4.3 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "Cocos Creator v2.4.3", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/plframe.html (3)
+I/Ads: JS: type=omidSessionStarted&time=2023-04-23T17%3A29%3A49.255Z&message=Session%20started&event=%7B%22adSessionId%22%3A%22395bd3c2-12ee-4b7f-8075-595a3ee40798%22%2C%22timestamp%22%3A1682270989255%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.3-google_20200427%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%221.0%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22definedByJavaScript%22%2C%22mediaType%22%3A%22video%22%2C%22creativeType%22%3A%22video%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSessionStarted&time=2023-04-23T17%3A29%3A49.255Z&message=Session%20started&event=%7B%22adSessionId%22%3A%22395bd3c2-12ee-4b7f-8075-595a3ee40798%22%2C%22timestamp%22%3A1682270989255%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.3-google_20200427%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%221.0%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22definedByJavaScript%22%2C%22mediaType%22%3A%22video%22%2C%22creativeType%22%3A%22video%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidMeasurementBelow&time=2023-04-23T17%3A29%3A49.276Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%22395bd3c2-12ee-4b7f-8075-595a3ee40798%22%2C%22timestamp%22%3A1682270989276%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A411.4285583496094%2C%22height%22%3A845.7142944335938%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22notFound%22%5D%2C%22geometry%22%3A%7B%22width%22%3A412%2C%22height%22%3A732%2C%22x%22%3A-206.015625%2C%22y%22%3A-366.015625%2C%22pixels%22%3A301584%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%2C%22containerGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%7D%2C%22onScreenContainerGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%7D%2C%22measuringElement%22%3Atrue%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidMeasurementBelow&time=2023-04-23T17%3A29%3A49.276Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%22395bd3c2-12ee-4b7f-8075-595a3ee40798%22%2C%22timestamp%22%3A1682270989276%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A411.4285583496094%2C%22height%22%3A845.7142944335938%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22notFound%22%5D%2C%22geometry%22%3A%7B%22width%22%3A412%2C%22height%22%3A732%2C%22x%22%3A-206.015625%2C%22y%22%3A-366.015625%2C%22pixels%22%3A301584%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%2C%22containerGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%7D%2C%22onScreenContainerGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%7D%2C%22measuringElement%22%3Atrue%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidVideo&time=2023-04-23T17%3A29%3A49.267Z&message=Video%20event%20occurred&event=%7B%22adSessionId%22%3A%22395bd3c2-12ee-4b7f-8075-595a3ee40798%22%2C%22timestamp%22%3A1682270989267%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22skippable%22%3Afalse%2C%22autoPlay%22%3Atrue%2C%22position%22%3A%22standalone%22%2C%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22video%22%2C%22creativeType%22%3A%22video%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidVideo&time=2023-04-23T17%3A29%3A49.267Z&message=Video%20event%20occurred&event=%7B%22adSessionId%22%3A%22395bd3c2-12ee-4b7f-8075-595a3ee40798%22%2C%22timestamp%22%3A1682270989267%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22skippable%22%3Afalse%2C%22autoPlay%22%3Atrue%2C%22position%22%3A%22standalone%22%2C%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22video%22%2C%22creativeType%22%3A%22video%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/Ads: JS: type=omidSupported&time=2023-04-23T17%3A29%3A50.550Z&message=Found%20OMID%20JS%20environment&event=undefined (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSupported&time=2023-04-23T17%3A29%3A50.550Z&message=Found%20OMID%20JS%20environment&event=undefined", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidSessionStarted&time=2023-04-23T17%3A29%3A50.061Z&message=Session%20started&event=%7B%22adSessionId%22%3A%22d23844b2-51e8-4b89-aadf-00808b9ace67%22%2C%22timestamp%22%3A1682270990061%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.26-google_20211025%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%220.4%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%2C%22verificationParameters%22%3A%22%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSessionStarted&time=2023-04-23T17%3A29%3A50.061Z&message=Session%20started&event=%7B%22adSessionId%22%3A%22d23844b2-51e8-4b89-aadf-00808b9ace67%22%2C%22timestamp%22%3A1682270990061%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.26-google_20211025%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%220.4%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%2C%22verificationParameters%22%3A%22%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidMeasurementBelow&time=2023-04-23T17%3A29%3A50.105Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%22d23844b2-51e8-4b89-aadf-00808b9ace67%22%2C%22timestamp%22%3A1682270990105%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A411.4285583496094%2C%22height%22%3A845.7142944335938%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22notFound%22%5D%2C%22geometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidMeasurementBelow&time=2023-04-23T17%3A29%3A50.105Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%22d23844b2-51e8-4b89-aadf-00808b9ace67%22%2C%22timestamp%22%3A1682270990105%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A411.4285583496094%2C%22height%22%3A845.7142944335938%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22notFound%22%5D%2C%22geometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidLoaded&time=2023-04-23T17%3A29%3A50.080Z&message=Loaded%20event%20occurred&event=%7B%22adSessionId%22%3A%22d23844b2-51e8-4b89-aadf-00808b9ace67%22%2C%22timestamp%22%3A1682270990080%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidLoaded&time=2023-04-23T17%3A29%3A50.080Z&message=Loaded%20event%20occurred&event=%7B%22adSessionId%22%3A%22d23844b2-51e8-4b89-aadf-00808b9ace67%22%2C%22timestamp%22%3A1682270990080%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+V/FA: Inactivity, disconnecting from the service
+I/Ads: JS: mv 强制声音为0 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:285)
+I/chromium: [INFO:CONSOLE(285)] "mv 强制声音为0", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (285)
+I/Ads: JS: mv 不进行链接 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:298)
+I/chromium: [INFO:CONSOLE(298)] "mv 不进行链接", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (298)
+I/Ads: JS: mv createBufferSource (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:140)
+I/chromium: [INFO:CONSOLE(140)] "mv createBufferSource", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (140)
+I/Ads: JS: 游戏还没开始 不允停止声音 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:229)
+I/chromium: [INFO:CONSOLE(229)] "游戏还没开始 不允停止声音", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (229)
+I/Ads: JS: 游戏还没开始 不允许播放声音 (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js:175)
+I/chromium: [INFO:CONSOLE(175)] "游戏还没开始 不允许播放声音", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/js/webAudioCheck.js (175)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: Success to load scene: db://assets/Scene/helloworld.fire (https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "Success to load scene: db://assets/Scene/helloworld.fire", source: https://playable.mintegral.com/playable/22/05/18/dsp_en_120821_bCetjS6hj_an/plframe/plframe.html (3)
+I/Ads: JS: 执行自定义事件: gameReady (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: gameReady", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,720,1480) new=(0,0,1480,720) req=(720,1480)4 dur=92 res=0x1 s={false 0} ch=false
+I/MultiWindowDecorSupport: [INFO] isPopOver = false
+I/MultiWindowDecorSupport: updateCaptionType >> DecorView@7fd36c1[MainActivity], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@7fd36c1[MainActivity]
+I/ViewRootImpl@3fec100[MainActivity]: stopped(false) old=true
+I/ViewRootImpl@3fec100[MainActivity]: stopped(false) old=false
+V/FA: Activity resumed, time: 142676228
+V/FA: Connecting to remote service
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+W/ConnectionStatusConfig: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,1480,720) new=(0,0,1480,720) req=(1480,720)0 dur=15 res=0x7 s={true 489232556032} ch=true
+W/Ads: Not retrying to fetch app settings
+I/ViewRootImpl@3fec100[MainActivity]: MSG_RESIZED_REPORT: frame=(0,0,1480,720) ci=(0,0,0,0) vi=(0,42,0,0) or=2
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,1480,720) new=(0,0,1480,720) req=(1480,720)0 dur=5 res=0x1 s={true 489232556032} ch=false
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 1
+I/ViewRootImpl@3fec100[MainActivity]: MSG_RESIZED_REPORT: frame=(0,0,1480,720) ci=(0,0,0,0) vi=(0,42,0,0) or=2
+I/ViewRootImpl@3fec100[MainActivity]: MSG_RESIZED: frame=(0,0,1480,720) ci=(0,0,0,0) vi=(0,0,0,0) or=2
+I/ViewRootImpl@3fec100[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@7fd36c1[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@7fd36c1[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+V/InputMethodManager: Starting input: tba=com.sanghendrix.intosamomor ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : false , NavTrans : false
+D/InputMethodManager: startInputInner - Id : 0
+I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@7fd36c1[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+V/InputMethodManager: Starting input: tba=com.sanghendrix.intosamomor ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : false , NavTrans : false
+D/InputMethodManager: startInputInner - Id : 0
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+D/AAudio: AAudioStream_requestStop(s#2) called
+D/AudioTrack: stop(1874): called with 1440000 frames delivered
+D/: PlayerBase::stop() from IPlayer
+W/Ads: JS: 没有找到指定的语言en-us，但是找到了该语言的父集语言，将使用父集语言en (https://play.mintegral.com/hyplug/MtgLoading.js:1)
+I/chromium: [INFO:CONSOLE(1)] "没有找到指定的语言en-us，但是找到了该语言的父集语言，将使用父集语言en", source: https://play.mintegral.com/hyplug/MtgLoading.js (1)
+W/Ads: GET LOCATION COMPILED
+I/ExoPlayerImpl: Init 73acc0a [AndroidXMedia3/1.0.0-beta03] [crownqlteue, SM-N960U1, samsung, 29]
+I/Ads: ExoPlayerAdapter initialized.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/Ads: JS: 派发自身事件:created (https://play.mintegral.com/hyplug/Adchoice.js:1)
+I/chromium: [INFO:CONSOLE(1)] "派发自身事件:created", source: https://play.mintegral.com/hyplug/Adchoice.js (1)
+I/Ads: JS: 派发自身事件:mounted (https://play.mintegral.com/hyplug/Adchoice.js:1)
+I/chromium: [INFO:CONSOLE(1)] "派发自身事件:mounted", source: https://play.mintegral.com/hyplug/Adchoice.js (1)
+D/AAudio: AAudioStream_requestStart(s#2) called --------------
+D/: PlayerBase::start() from IPlayer
+D/AAudio: AAudioStream_requestStart(s#2) returned 0 ---------
+D/AudioStreamLegacy: onAudioDeviceUpdate() devId 3 => 3
+D/CCodec: allocate(c2.android.aac.decoder)
+I/Codec2Client: Creating a Codec2 client to service "default"
+I/Codec2Client: Client to Codec2 service "default" created
+I/CCodec: setting up 'default' as default (vendor) store
+I/CCodec: Created component [c2.android.aac.decoder]
+D/CCodecConfig: read media type: audio/mp4a-latm
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+I/CCodecConfig: query failed after returning 16 values (BAD_INDEX)
+D/CCodecConfig: c2 config is Dict {
+      c2::u32 coded.aac-packaging.value = 0
+      c2::u32 coded.bitrate.value = 64000
+      c2::u32 coded.pl.level = 0
+      c2::u32 coded.pl.profile = 8192
+      c2::float coding.drc.attenuation-factor.value = 1
+      c2::float coding.drc.boost-factor.value = 1
+      c2::i32 coding.drc.compression-mode.value = 3
+      c2::i32 coding.drc.effect-type.value = 3
+      c2::float coding.drc.encoded-level.value = 0.25
+      c2::float coding.drc.reference-level.value = -16
+      c2::u32 input.buffers.max-size.value = 8192
+      c2::u32 input.delay.value = 0
+      string input.media-type.value = "audio/mp4a-latm"
+      c2::u32 output.delay.value = 2
+      string output.media-type.value = "audio/raw"
+      c2::u32 raw.channel-count.value = 1
+      c2::u32 raw.sample-rate.value = 44100
+    }
+D/CCodecConfig: config failed => CORRUPTED
+D/CCodecConfig: c2 config is Dict {
+      c2::u32 coded.aac-packaging.value = 0
+      c2::u32 coded.bitrate.value = 64000
+      c2::u32 coded.pl.level = 0
+      c2::u32 coded.pl.profile = 8192
+      c2::float coding.drc.attenuation-factor.value = 1
+      c2::float coding.drc.boost-factor.value = 1
+      c2::i32 coding.drc.compression-mode.value = 3
+      c2::i32 coding.drc.effect-type.value = 3
+      c2::float coding.drc.encoded-level.value = 0.25
+      c2::float coding.drc.reference-level.value = -16
+      c2::u32 input.buffers.max-size.value = 8192
+      c2::u32 input.delay.value = 0
+      string input.media-type.value = "audio/mp4a-latm"
+      c2::u32 output.delay.value = 2
+      string output.media-type.value = "audio/raw"
+      c2::u32 raw.channel-count.value = 1
+      c2::u32 raw.sample-rate.value = 24000
+    }
+W/Codec2Client: query -- param skipped: index = 1107298332.
+D/CCodec: client requested max input size 738, which is smaller than what component recommended (8192); overriding with component recommendation.
+W/CCodec: This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+D/CCodec: setup formats input: AMessage(what = 0x00000000) = {
+      int32_t channel-count = 1
+      int32_t level = 0
+      int32_t max-input-size = 8192
+      string mime = "audio/mp4a-latm"
+      int32_t profile = 2
+      int32_t sample-rate = 24000
+      int64_t durationUs = 0
+    } and output: AMessage(what = 0x00000000) = {
+      int32_t channel-count = 1
+      string mime = "audio/raw"
+      int32_t sample-rate = 24000
+    }
+W/Codec2Client: query -- param skipped: index = 1342179345.
+W/Codec2Client: query -- param skipped: index = 2415921170.
+W/Codec2Client: query -- param skipped: index = 1610614798.
+D/BufferPoolAccessor: bufferpool2 0x716e299220 : 5(40960 size) total buffers - 5(40960 size) used buffers - 1/7 (recycle/alloc) - 6/19 (fetch/transfer)
+D/BufferPoolAccessor: bufferpool2 0x713cb1fc20 : 6(49152 size) total buffers - 5(40960 size) used buffers - 1/7 (recycle/alloc) - 6/22 (fetch/transfer)
+D/CCodecBufferChannel: [c2.android.aac.decoder#262] Created input block pool with allocatorID 16 => poolID 19 - OK (0)
+I/CCodecBufferChannel: [c2.android.aac.decoder#262] Created output block pool with allocatorID 16 => poolID 734 - OK
+D/CCodecBufferChannel: [c2.android.aac.decoder#262] Configured output block pool ids 734 => OK
+E/C2AllocatorIon: >>>SEC mapUsage Mapper1 2000000
+E/C2AllocatorIon: >>>SEC C2AllocatorIon::mapUsage ion_is_legacy++++++++
+E/C2AllocatorIon: >>>SEC mapUsage	0, 2000000
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/ACodec:  [] Now uninitialized
+I/ACodec: [] onAllocateComponent
+I/OMXClient: IOmx service obtained
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Loaded
+D/SurfaceUtils: connecting to surface 0x70fedef010, reason connectToSurface
+I/MediaCodec: [OMX.qcom.video.decoder.avc] setting surface generation to 24552451
+D/SurfaceUtils: disconnecting from surface 0x70fedef010, reason connectToSurface(reconnect)
+D/SurfaceUtils: connecting to surface 0x70fedef010, reason connectToSurface(reconnect)
+I/ACodec: app-pid(23977)
+I/ACodec: [OMX.qcom.video.decoder.avc] OMX_QCOM_FramePacking_OnlyOneCompleteFrame is setting
+I/ACodec: Success to set FramePackingMode
+I/SmartFittingClass: Create SmartFitting Version 2.0
+I/SmartFittingClass: Init, [State:UNINITIALIZED] pid: 23977
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Loaded->Idle
+I/SmartFittingClass: InitialCheck()
+D/SurfaceUtils: set up nativeWindow 0x70fedef010 for 1920x1080, color 0x7fa30c06, rotation 0, usage 0x20402900
+I/ACodec: [OMX.qcom.video.decoder.avc] configureOutputBuffersFromNativeWindow setBufferCount : 17, minUndequeuedBuffers : 5
+I/MediaCodec: setCodecState state : 0
+I/SmartFittingClass: InitialCheck, WhiteListStatus returned from CodecSolution : 0
+I/SmartFittingClass: InitialCheck, [State:FINISHED] SmartFitting has not been activated by App. Shut Down SmartFitting.
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Idle->Executing
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Executing
+I/ACodec: [OMX.qcom.video.decoder.avc] calling emptyBuffer 1 w/ codec specific data, size : 29
+I/ACodec: [OMX.qcom.video.decoder.avc] calling emptyBuffer 2 w/ codec specific data, size : 9
+D/AudioTrack: setVolume(1.000000, 1.000000) pid : 23977
+I/Ads: JS: %c                         >>> BLACK <<<                          background: #000; color: #fff; (https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "%c                         >>> BLACK <<<                          background: #000; color: #fff;", source: https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html (3)
+I/Ads: JS: new AudioContextMV ：2 (https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/js/webAudioCheck.js:17)
+I/chromium: [INFO:CONSOLE(17)] "new AudioContextMV ：2", source: https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/js/webAudioCheck.js (17)
+I/Ads: JS: Build on platform mintegral. Date: 07.02.23. Version 1.0. Type: CLICKBAIT. (https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "Build on platform mintegral. Date: 07.02.23. Version 1.0. Type: CLICKBAIT.", source: https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html (3)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+W/Ads: JS: Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently (https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently", source: https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html (3)
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/Ads: JS: 执行自定义事件: PLAYABLE:domComplete (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: PLAYABLE:domComplete", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 执行自定义事件: PLAYABLE:windowOnload (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: PLAYABLE:windowOnload", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/MediaCodec: setCodecState state : 0
+I/Ads: JS: type=omidSupported&time=2023-04-23T17%3A30%3A21.202Z&message=Found%20OMID%20JS%20environment&event=undefined (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSupported&time=2023-04-23T17%3A30%3A21.202Z&message=Found%20OMID%20JS%20environment&event=undefined", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidSessionStarted&time=2023-04-23T17%3A30%3A21.081Z&message=Session%20started&event=%7B%22adSessionId%22%3A%22b7350e11-0806-4048-a6c0-210d34947db8%22%2C%22timestamp%22%3A1682271021081%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.26-google_20211025%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%220.4%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%2C%22verificationParameters%22%3A%22%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidSessionStarted&time=2023-04-23T17%3A30%3A21.081Z&message=Session%20started&event=%7B%22adSessionId%22%3A%22b7350e11-0806-4048-a6c0-210d34947db8%22%2C%22timestamp%22%3A1682271021081%2C%22type%22%3A%22sessionStart%22%2C%22data%22%3A%7B%22context%22%3A%7B%22apiVersion%22%3A%221.0%22%2C%22accessMode%22%3A%22limited%22%2C%22environment%22%3A%22app%22%2C%22omidJsInfo%22%3A%7B%22omidImplementer%22%3A%22omsdk%22%2C%22serviceVersion%22%3A%221.4.3-google11%22%2C%22sessionClientVersion%22%3A%221.3.26-google_20211025%22%2C%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%220.4%22%7D%2C%22adSessionType%22%3A%22html%22%2C%22deviceInfo%22%3A%7B%22deviceType%22%3A%22samsung%3B%20SM-N960U1%22%2C%22osVersion%22%3A%2229%22%2C%22os%22%3A%22Android%22%7D%2C%22supports%22%3A%5B%22clid%22%2C%22vlid%22%5D%2C%22omidNativeInfo%22%3A%7B%22partnerName%22%3A%22Google%22%2C%22partnerVersion%22%3A%22230500999.224400000%22%7D%2C%22app%22%3A%7B%22libraryVersion%22%3A%221.3.37-google_20220829%22%2C%22appId%22%3A%22com.sanghendrix.intosamomor%22%7D%2C%22customReferenceData%22%3A%22%22%2C%22canMeasureVisibility%22%3Atrue%7D%2C%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%2C%22supportsLoadedEvent%22%3Atrue%2C%22pageUrl%22%3Anull%2C%22contentUrl%22%3Anull%2C%22verificationParameters%22%3A%22%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidMeasurementBelow&time=2023-04-23T17%3A30%3A21.191Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%22b7350e11-0806-4048-a6c0-210d34947db8%22%2C%22timestamp%22%3A1682271021191%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A845.7142944335938%2C%22height%22%3A411.4285583496094%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22notFound%22%5D%2C%22geometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidMeasurementBelow&time=2023-04-23T17%3A30%3A21.191Z&message=Geometry%20change%20event%20occurred&event=%7B%22adSessionId%22%3A%22b7350e11-0806-4048-a6c0-210d34947db8%22%2C%22timestamp%22%3A1682271021191%2C%22type%22%3A%22geometryChange%22%2C%22data%22%3A%7B%22viewport%22%3A%7B%22width%22%3A845.7142944335938%2C%22height%22%3A411.4285583496094%7D%2C%22adView%22%3A%7B%22percentageInView%22%3A0%2C%22pixelsInView%22%3A0%2C%22reasons%22%3A%5B%22notFound%22%5D%2C%22geometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%7D%2C%22onScreenGeometry%22%3A%7B%22width%22%3A0%2C%22height%22%3A0%2C%22x%22%3A0%2C%22y%22%3A0%2C%22pixels%22%3A0%2C%22obstructions%22%3A%5B%5D%2C%22friendlyObstructions%22%3A%5B%5D%7D%7D%2C%22declaredFriendlyObstructions%22%3A0%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+I/Ads: JS: type=omidLoaded&time=2023-04-23T17%3A30%3A21.097Z&message=Loaded%20event%20occurred&event=%7B%22adSessionId%22%3A%22b7350e11-0806-4048-a6c0-210d34947db8%22%2C%22timestamp%22%3A1682271021097%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%7D%7D (https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js:6)
+I/chromium: [INFO:CONSOLE(6)] "type=omidLoaded&time=2023-04-23T17%3A30%3A21.097Z&message=Loaded%20event%20occurred&event=%7B%22adSessionId%22%3A%22b7350e11-0806-4048-a6c0-210d34947db8%22%2C%22timestamp%22%3A1682271021097%2C%22type%22%3A%22loaded%22%2C%22data%22%3A%7B%22impressionType%22%3A%22beginToRender%22%2C%22mediaType%22%3A%22display%22%2C%22creativeType%22%3A%22htmlDisplay%22%7D%7D", source: https://pagead2.googlesyndication.com/omsdk/releases/live/omid_test_verification_bin.js (6)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+V/FA: Inactivity, disconnecting from the service
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@7fd36c1[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+V/InputMethodManager: Starting input: tba=com.sanghendrix.intosamomor ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : false , NavTrans : false
+D/InputMethodManager: startInputInner - Id : 0
+I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport: Input channel destroyed: 'ClientS', fd=395
+V/FA: Recording user engagement, ms: 31447
+I/ViewRootImpl@3fec100[MainActivity]: stopped(true) old=false
+V/FA: Connecting to remote service
+V/FA: Connection attempt already in progress
+V/FA: Activity paused, time: 142707677
+D/FA: Connected to remote service
+V/FA: Processing queued up service tasks: 2
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,1480,720) new=(0,0,1480,720) req=(1480,720)8 dur=63 res=0x5 s={false 0} ch=false
+I/ViewRootImpl@3fec100[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@7fd36c1[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,1480,720) new=(0,0,1480,720) req=(1480,720)8 dur=7 res=0x1 s={false 0} ch=false
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,1480,720) new=(0,0,1480,720) req=(1480,720)4 dur=110 res=0x1 s={false 0} ch=false
+I/ViewRootImpl@3fec100[MainActivity]: stopped(false) old=true
+I/ViewRootImpl@3fec100[MainActivity]: stopped(false) old=false
+V/FA: Activity resumed, time: 142708927
+D/DynamitePackage: Instantiating com.google.android.gms.ads.ChimeraAdManagerCreatorImpl
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+D/AAudio: AAudioStream_requestStop(s#2) called
+D/AudioTrack: stop(1874): called with 1440192 frames delivered
+D/: PlayerBase::stop() from IPlayer
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+I/Ads: Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("9B345758D8684CCDB9562FD314BF8FF8")) to get test ads on this device.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,1480,720) new=(0,0,1480,720) req=(1480,720)0 dur=9 res=0x7 s={true 489233055744} ch=true
+W/Ads: Not retrying to fetch app settings
+W/ConnectionStatusConfig: Dynamic lookup for intent failed for action: com.google.android.gms.ads.service.START
+I/ViewRootImpl@3fec100[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@7fd36c1[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@7fd36c1[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+V/InputMethodManager: Starting input: tba=com.sanghendrix.intosamomor ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : false , NavTrans : false
+D/InputMethodManager: startInputInner - Id : 0
+I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+D/InputTransport: Input channel destroyed: 'ClientS', fd=185
+I/ViewRootImpl@3fec100[MainActivity]: MSG_RESIZED_REPORT: frame=(0,0,1480,720) ci=(0,0,0,0) vi=(0,0,0,0) or=2
+I/ViewRootImpl@3fec100[MainActivity]: Relayout returned: old=(0,0,1480,720) new=(0,0,1480,720) req=(1480,720)0 dur=8 res=0x3 s={true 489233055744} ch=false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/Ads: JS: 没有找到指定的语言en-us，但是找到了该语言的父集语言，将使用父集语言en (https://play.mintegral.com/hyplug/MtgLoading.js:1)
+I/chromium: [INFO:CONSOLE(1)] "没有找到指定的语言en-us，但是找到了该语言的父集语言，将使用父集语言en", source: https://play.mintegral.com/hyplug/MtgLoading.js (1)
+I/Ads: JS: 派发自身事件:created (https://play.mintegral.com/hyplug/Adchoice.js:1)
+I/chromium: [INFO:CONSOLE(1)] "派发自身事件:created", source: https://play.mintegral.com/hyplug/Adchoice.js (1)
+I/Ads: JS: 派发自身事件:mounted (https://play.mintegral.com/hyplug/Adchoice.js:1)
+I/chromium: [INFO:CONSOLE(1)] "派发自身事件:mounted", source: https://play.mintegral.com/hyplug/Adchoice.js (1)
+D/AAudio: AAudioStream_requestStart(s#2) called --------------
+D/: PlayerBase::start() from IPlayer
+D/AAudio: AAudioStream_requestStart(s#2) returned 0 ---------
+D/AudioStreamLegacy: onAudioDeviceUpdate() devId 3 => 3
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/Ads: JS: %c                         >>> BLACK <<<                          background: #000; color: #fff; (https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "%c                         >>> BLACK <<<                          background: #000; color: #fff;", source: https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html (3)
+I/Ads: JS: new AudioContextMV ：2 (https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/js/webAudioCheck.js:17)
+I/chromium: [INFO:CONSOLE(17)] "new AudioContextMV ：2", source: https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/js/webAudioCheck.js (17)
+I/Ads: JS: Build on platform mintegral. Date: 07.02.23. Version 1.0. Type: CLICKBAIT. (https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "Build on platform mintegral. Date: 07.02.23. Version 1.0. Type: CLICKBAIT.", source: https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html (3)
+W/Ads: JS: Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently (https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html:3)
+I/chromium: [INFO:CONSOLE(3)] "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently", source: https://playable.mintegral.com/playable/23/02/09/dsp_en_DIYPaperDoll_YIhYuh7vs_an/plframe/plframe.html (3)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: [object Object] (https://play.rayjump.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "[object Object]", source: https://play.rayjump.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 执行自定义事件: PLAYABLE:domComplete (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: PLAYABLE:domComplete", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 执行自定义事件: PLAYABLE:windowOnload (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "执行自定义事件: PLAYABLE:windowOnload", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/Ads: JS: 传参:  (https://play.mintegral.com/hyplug/PlProtocol.js:1)
+I/chromium: [INFO:CONSOLE(1)] "传参: ", source: https://play.mintegral.com/hyplug/PlProtocol.js (1)
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+W/Ads: GET LOCATION COMPILED
+I/ExoPlayerImpl: Init 60fa9e3 [AndroidXMedia3/1.0.0-beta03] [crownqlteue, SM-N960U1, samsung, 29]
+I/Ads: ExoPlayerAdapter initialized.
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+D/CCodec: allocate(c2.android.aac.decoder)
+I/Codec2Client: Creating a Codec2 client to service "default"
+I/Codec2Client: Client to Codec2 service "default" created
+I/CCodec: setting up 'default' as default (vendor) store
+I/CCodec: Created component [c2.android.aac.decoder]
+D/CCodecConfig: read media type: audio/mp4a-latm
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+D/ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+I/CCodecConfig: query failed after returning 16 values (BAD_INDEX)
+D/CCodecConfig: c2 config is Dict {
+      c2::u32 coded.aac-packaging.value = 0
+      c2::u32 coded.bitrate.value = 64000
+      c2::u32 coded.pl.level = 0
+      c2::u32 coded.pl.profile = 8192
+      c2::float coding.drc.attenuation-factor.value = 1
+      c2::float coding.drc.boost-factor.value = 1
+      c2::i32 coding.drc.compression-mode.value = 3
+      c2::i32 coding.drc.effect-type.value = 3
+      c2::float coding.drc.encoded-level.value = 0.25
+      c2::float coding.drc.reference-level.value = -16
+      c2::u32 input.buffers.max-size.value = 8192
+      c2::u32 input.delay.value = 0
+      string input.media-type.value = "audio/mp4a-latm"
+      c2::u32 output.delay.value = 2
+      string output.media-type.value = "audio/raw"
+      c2::u32 raw.channel-count.value = 1
+      c2::u32 raw.sample-rate.value = 44100
+    }
+D/CCodecConfig: config failed => CORRUPTED
+D/CCodecConfig: c2 config is Dict {
+      c2::u32 coded.aac-packaging.value = 0
+      c2::u32 coded.bitrate.value = 64000
+      c2::u32 coded.pl.level = 0
+      c2::u32 coded.pl.profile = 8192
+      c2::float coding.drc.attenuation-factor.value = 1
+      c2::float coding.drc.boost-factor.value = 1
+      c2::i32 coding.drc.compression-mode.value = 3
+      c2::i32 coding.drc.effect-type.value = 3
+      c2::float coding.drc.encoded-level.value = 0.25
+      c2::float coding.drc.reference-level.value = -16
+      c2::u32 input.buffers.max-size.value = 8192
+      c2::u32 input.delay.value = 0
+      string input.media-type.value = "audio/mp4a-latm"
+      c2::u32 output.delay.value = 2
+      string output.media-type.value = "audio/raw"
+      c2::u32 raw.channel-count.value = 1
+      c2::u32 raw.sample-rate.value = 24000
+    }
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+W/Codec2Client: query -- param skipped: index = 1107298332.
+D/CCodec: client requested max input size 738, which is smaller than what component recommended (8192); overriding with component recommendation.
+W/CCodec: This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+D/CCodec: setup formats input: AMessage(what = 0x00000000) = {
+      int32_t channel-count = 1
+      int32_t level = 0
+      int32_t max-input-size = 8192
+      string mime = "audio/mp4a-latm"
+      int32_t profile = 2
+      int32_t sample-rate = 24000
+      int64_t durationUs = 0
+    } and output: AMessage(what = 0x00000000) = {
+      int32_t channel-count = 1
+      string mime = "audio/raw"
+      int32_t sample-rate = 24000
+    }
+W/Codec2Client: query -- param skipped: index = 1342179345.
+W/Codec2Client: query -- param skipped: index = 2415921170.
+W/Codec2Client: query -- param skipped: index = 1610614798.
+D/BufferPoolAccessor: bufferpool2 0x716e299220 : 5(40960 size) total buffers - 5(40960 size) used buffers - 1/7 (recycle/alloc) - 6/19 (fetch/transfer)
+D/BufferPoolAccessor: bufferpool2 0x713cb1fc20 : 5(40960 size) total buffers - 5(40960 size) used buffers - 1/7 (recycle/alloc) - 6/22 (fetch/transfer)
+D/BufferPoolAccessor: bufferpool2 0x70fe9ad220 : 6(49152 size) total buffers - 5(40960 size) used buffers - 1/7 (recycle/alloc) - 6/19 (fetch/transfer)
+D/CCodecBufferChannel: [c2.android.aac.decoder#691] Created input block pool with allocatorID 16 => poolID 20 - OK (0)
+I/CCodecBufferChannel: [c2.android.aac.decoder#691] Created output block pool with allocatorID 16 => poolID 735 - OK
+D/CCodecBufferChannel: [c2.android.aac.decoder#691] Configured output block pool ids 735 => OK
+E/C2AllocatorIon: >>>SEC mapUsage Mapper1 2000000
+E/C2AllocatorIon: >>>SEC C2AllocatorIon::mapUsage ion_is_legacy++++++++
+E/C2AllocatorIon: >>>SEC mapUsage	0, 2000000
+I/ACodec:  [] Now uninitialized
+I/ACodec: [] onAllocateComponent
+I/OMXClient: IOmx service obtained
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Loaded
+D/SurfaceUtils: connecting to surface 0x71d9ff4010, reason connectToSurface
+I/MediaCodec: [OMX.qcom.video.decoder.avc] setting surface generation to 24552452
+D/SurfaceUtils: disconnecting from surface 0x71d9ff4010, reason connectToSurface(reconnect)
+D/SurfaceUtils: connecting to surface 0x71d9ff4010, reason connectToSurface(reconnect)
+I/ACodec: app-pid(23977)
+I/ACodec: [OMX.qcom.video.decoder.avc] OMX_QCOM_FramePacking_OnlyOneCompleteFrame is setting
+I/ACodec: Success to set FramePackingMode
+I/SmartFittingClass: Create SmartFitting Version 2.0
+I/SmartFittingClass: Init, [State:UNINITIALIZED] pid: 23977
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Loaded->Idle
+I/SmartFittingClass: InitialCheck()
+D/SurfaceUtils: set up nativeWindow 0x71d9ff4010 for 1920x1080, color 0x7fa30c06, rotation 0, usage 0x20402900
+I/ACodec: [OMX.qcom.video.decoder.avc] configureOutputBuffersFromNativeWindow setBufferCount : 17, minUndequeuedBuffers : 5
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Idle->Executing
+I/ACodec: [OMX.qcom.video.decoder.avc] Now Executing
+I/MediaCodec: setCodecState state : 0
+I/ACodec: [OMX.qcom.video.decoder.avc] calling emptyBuffer 1 w/ codec specific data, size : 29
+I/ACodec: [OMX.qcom.video.decoder.avc] calling emptyBuffer 2 w/ codec specific data, size : 9
+D/AudioTrack: setVolume(1.000000, 1.000000) pid : 23977
+I/DynamiteModule: Considering local module com.google.android.gms.ads.dynamite:0 and remote module com.google.android.gms.ads.dynamite:230500000
+I/DynamiteModule: Selected remote version of com.google.android.gms.ads.dynamite, version >= 230500000
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+I/System.out: (HTTPLog)-Static: isSBSettingEnabled false
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+I/SmartFittingClass: InitialCheck, WhiteListStatus returned from CodecSolution : 0
+I/SmartFittingClass: InitialCheck, [State:FINISHED] SmartFitting has not been activated by App. Shut Down SmartFitting.
+I/MediaCodec: setCodecState state : 0
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getInt(Ljava/lang/Object;J)I (greylist, linking, allowed)
+W/rix.intosamomo: Accessing hidden method Lsun/misc/Unsafe;->getObject(Ljava/lang/Object;J)Ljava/lang/Object; (greylist, linking, allowed)
+V/FA: Inactivity, disconnecting from the service
+I/ViewRootImpl@3fec100[MainActivity]: ViewPostIme pointer 0
+I/ViewRootImpl@3fec100[MainActivity]: ViewPostIme pointer 1
+D/InputMethodManager: prepareNavigationBarInfo() DecorView@7fd36c1[MainActivity]
+D/InputMethodManager: getNavigationBarColor() -855310
+V/InputMethodManager: Starting input: tba=com.sanghendrix.intosamomor ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : false , NavTrans : false
+D/InputMethodManager: startInputInner - Id : 0
+I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+D/InputTransport: Input channel destroyed: 'ClientS', fd=417
+D/: PlayerBase::~PlayerBase()
+D/AAudio: AAudioStream_requestStop(s#2) called
+D/AudioTrack: stop(1874): called with 1440768 frames delivered
+D/: PlayerBase::stop() from IPlayer
+D/AAudio: AAudioStream_close(s#2) called ---------------
+D/AAudio: AAudioStream_close(s#2) returned 0 ---------
+I/ViewRootImpl@3fec100[MainActivity]: ViewPostIme pointer 0
+I/ViewRootImpl@3fec100[MainActivity]: ViewPostIme pointer 1
+I/ViewRootImpl@3fec100[MainActivity]: ViewPostIme pointer 0
+I/ViewRootImpl@3fec100[MainActivity]: ViewPostIme pointer 1
