@@ -113,6 +113,7 @@ class MainActivity : AppCompatActivity(), BillingProcessor.IBillingHandler {
         loadingTextView = findViewById(R.id.loading_text_view)
         rpgwebview = findViewById(R.id.webView) // Thêm dòng này
         adView = findViewById(R.id.adView)
+        adReadyButton = findViewById(R.id.ad_ready_button)
         val storage = FirebaseStorage.getInstance()
         val gcsPath = "gs://into-samomor.appspot.com/IntoSamomor.zip"
         val storageReference = storage.getReferenceFromUrl(gcsPath)
