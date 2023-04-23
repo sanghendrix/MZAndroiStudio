@@ -1,8 +1,5 @@
 package com.rpgmaker.game
 
-import android.widget.TextView
-import java.net.URL
-import java.io.BufferedInputStream
 import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.*
@@ -34,16 +31,24 @@ import com.google.android.play.core.review.ReviewManagerFactory
 import android.view.View;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
-import android.util.Log
-import com.google.firebase.storage.FirebaseStorage
+import android.content.Context
+import android.view.Window
+import android.view.WindowManager
+import android.webkit.WebView
+import com.android.billingclient.api.Purchase
+import com.google.android.gms.ads.AdRequest
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.io.File
 import java.io.FileOutputStream
-import java.util.zip.ZipInputStream
+import java.io.InputStream
+import java.net.URL
 
 
 class MainActivity : AppCompatActivity(), BillingProcessor.IBillingHandler {
 
-    private lateinit var loadingTextView: TextView
     private lateinit var rpgwebview: WebView
     private lateinit var adView: AdView
     private var mInterstitialAd: InterstitialAd? = null
@@ -110,111 +115,119 @@ class MainActivity : AppCompatActivity(), BillingProcessor.IBillingHandler {
         super.onCreate(savedInstanceState)
         supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
         setContentView(R.layout.activity_main)
-        loadingTextView = findViewById(R.id.loading_text_view)
-        rpgwebview = findViewById(R.id.webView) // Thêm dòng này
-        adView = findViewById(R.id.adView)
         adReadyButton = findViewById(R.id.ad_ready_button)
-        val storage = FirebaseStorage.getInstance()
-        val gcsPath = "gs://into-samomor.appspot.com/IntoSamomor.zip"
-        val storageReference = storage.getReferenceFromUrl(gcsPath)
-        storageReference.downloadUrl.addOnSuccessListener { downloadUrl ->
-            downloadAndUnzipFile(downloadUrl) {
-                setupWebViewAndAds()
+        adView = findViewById(R.id.adView)
+        @Suppress("DEPRECATION")
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            window.insetsController?.hide(WindowInsets.Type.statusBars())
+        } else {
+            window.setFlags(
+                WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN
+            )
+        }
+
+        // Download files from URL and run the game
+        CoroutineScope(Dispatchers.Main).launch {
+            val url = "http://sanghendrix.byethost3.com/samomor/"
+            val gameDir = File(filesDir, "game")
+
+            if (!gameDir.exists()) {
+                gameDir.mkdirs()
             }
-        }.addOnFailureListener { exception ->
-            Log.e("MainActivity", "Failed to get download URL", exception)
+            downloadFilesFromUrl(url, gameDir)}
+
+        bp = BillingProcessor(mainact, getString(R.string.license_key), this)
+        bp.initialize()
+        rpgwebview = findViewById(R.id.webView)
+        setWebView()
+        adView.pause()
+        adView.visibility = View.GONE
+        val adRequest = AdRequest.Builder().build()
+        adView.loadAd(adRequest)
+        loadInterstitialAd()
+        loadRewardedAd()
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            val insetsController = window.insetsController
+            if (insetsController != null) {
+                insetsController.hide(WindowInsets.Type.navigationBars())
+                insetsController.systemBarsBehavior =
+                    WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+            }
+        } else {
+            // Hide the navigation bar for API level 30 and below
+            window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                    or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                    or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                    or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                    or View.SYSTEM_UI_FLAG_FULLSCREEN
+                    or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
+        }
+
+    }
+
+    @SuppressLint("SetJavaScriptEnabled")
+    private fun setWebView() {
+        val webSettings = rpgwebview.settings
+        webSettings.javaScriptEnabled = true
+        webSettings.allowFileAccess = true
+        webSettings.allowContentAccess = true
+        webSettings.domStorageEnabled = true
+        webSettings.databaseEnabled = true
+        webSettings.setAppCacheEnabled(true)
+        webSettings.cacheMode = WebSettings.LOAD_DEFAULT
+        webSettings.allowFileAccessFromFileURLs = true
+        webSettings.allowUniversalAccessFromFileURLs = true
+        webSettings.useWideViewPort = true
+        webSettings.loadWithOverviewMode = true
+        webSettings.setSupportZoom(true)
+        webSettings.builtInZoomControls = true
+        webSettings.displayZoomControls = false
+        webSettings.mediaPlaybackRequiresUserGesture = false
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            webSettings.mediaPlaybackRequiresUserGesture = false
+        }
+
+        rpgwebview.webViewClient = object : WebViewClient() {
+            override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
+                view.loadUrl(url)
+                return false
+            }
+        }
+
+        rpgwebview.webChromeClient = WebChromeClient()
+
+        // Load your game folder from the internal storage
+        val gameDir = File(filesDir, "game")
+        val indexPath = "file://" + gameDir.absolutePath + "/index.html"
+        rpgwebview.loadUrl(indexPath)
+    }
+
+    private suspend fun downloadFile(url: String, file: File) {
+        withContext(Dispatchers.IO) {
+            val input: InputStream = URL(url).openStream()
+            val output = FileOutputStream(file)
+            input.copyTo(output)
+            input.close()
+            output.close()
         }
     }
 
-        private fun setupWebViewAndAds() {
-            adReadyButton = findViewById(R.id.ad_ready_button)
-            @Suppress("DEPRECATION")
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                window.insetsController?.hide(WindowInsets.Type.statusBars())
-            } else {
-                window.setFlags(
-                    WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                    WindowManager.LayoutParams.FLAG_FULLSCREEN
-                )
-            }
+    private suspend fun downloadFilesFromUrl(folderUrl: String, destinationFolder: File) {
+        withContext(Dispatchers.IO) {
+            // Download and save files
+            // Add the list of files available at the URL
+            val files = listOf("file1", "file2", "file3")
 
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                val insetsController = window.insetsController
-                if (insetsController != null) {
-                    insetsController.hide(WindowInsets.Type.navigationBars())
-                    insetsController.systemBarsBehavior =
-                        WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
-                }
-            } else {
-                // Hide the navigation bar for API level 30 and below
-                window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                        or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-                        or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                        or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                        or View.SYSTEM_UI_FLAG_FULLSCREEN
-                        or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
+            for (file in files) {
+                val url = folderUrl + file
+                val destinationFile = File(destinationFolder, file)
+                downloadFile(url, destinationFile)
             }
-
-            bp = BillingProcessor(mainact, getString(R.string.license_key), this)
-            bp.initialize()
-            setWebView()
-            adView.pause()
-            adView.visibility = View.GONE
-            val adRequest = AdRequest.Builder().build()
-            adView.loadAd(adRequest)
-            loadInterstitialAd()
-            loadRewardedAd()
         }
-
-    private fun updateLoadingText(progress: Int) {
-        loadingTextView.visibility = View.VISIBLE
-        loadingTextView.text = "Loading: $progress%"
     }
-
-    private fun downloadAndUnzipFile(downloadUrl: Uri, onFinish: () -> Unit) {
-        Thread {
-            try {
-                val url = URL(downloadUrl.toString())
-                val connection = url.openConnection()
-                val totalSize = connection.contentLength
-                val zipInputStream = ZipInputStream(BufferedInputStream(url.openStream()))
-                val outputDir = filesDir
-
-                var bytesRead = 0
-                var zipEntry = zipInputStream.nextEntry
-                while (zipEntry != null) {
-                    val outputFile = File(outputDir, zipEntry.name)
-                    if (zipEntry.isDirectory) {
-                        outputFile.mkdirs()
-                    } else {
-                        outputFile.parentFile?.mkdirs()
-
-                        FileOutputStream(outputFile).use { fileOutputStream ->
-                            val buffer = ByteArray(1024)
-                            var count = zipInputStream.read(buffer)
-                            while (count != -1) {
-                                fileOutputStream.write(buffer, 0, count)
-                                bytesRead += count
-                                val progress = (bytesRead.toFloat() / totalSize.toFloat() * 100).toInt()
-                                runOnUiThread { updateLoadingText(progress) }
-                                count = zipInputStream.read(buffer)
-                            }
-                        }
-                    }
-                    zipInputStream.closeEntry()
-                    zipEntry = zipInputStream.nextEntry
-                }
-                zipInputStream.close()
-                runOnUiThread {
-                    loadingTextView.visibility = View.GONE
-                    onFinish()
-                }
-            } catch (exception: Exception) {
-                Log.e("MainActivity", "Failed to download and unzip file", exception)
-            }
-        }.start()
-    }
-
 
     @Suppress("DEPRECATION")
     private fun isNetworkAvailable(context: Context): Boolean {
