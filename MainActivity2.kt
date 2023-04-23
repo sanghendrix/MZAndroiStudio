@@ -31,20 +31,6 @@ import com.google.android.play.core.review.ReviewManagerFactory
 import android.view.View;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
-import android.content.Context
-import android.view.Window
-import android.view.WindowManager
-import android.webkit.WebView
-import com.android.billingclient.api.Purchase
-import com.google.android.gms.ads.AdRequest
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-import java.io.File
-import java.io.FileOutputStream
-import java.io.InputStream
-import java.net.URL
 
 
 class MainActivity : AppCompatActivity(), BillingProcessor.IBillingHandler {
@@ -127,16 +113,6 @@ class MainActivity : AppCompatActivity(), BillingProcessor.IBillingHandler {
             )
         }
 
-        // Download files from URL and run the game
-        CoroutineScope(Dispatchers.Main).launch {
-            val url = "http://sanghendrix.byethost3.com/samomor/"
-            val gameDir = File(filesDir, "game")
-
-            if (!gameDir.exists()) {
-                gameDir.mkdirs()
-            }
-            downloadFilesFromUrl(url, gameDir)}
-
         bp = BillingProcessor(mainact, getString(R.string.license_key), this)
         bp.initialize()
         rpgwebview = findViewById(R.id.webView)
@@ -165,74 +141,6 @@ class MainActivity : AppCompatActivity(), BillingProcessor.IBillingHandler {
                     or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY)
         }
 
-    }
-
-    private fun showToast(message: String) {
-        runOnUiThread {
-            Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
-        }
-    }
-
-    @SuppressLint("SetJavaScriptEnabled")
-    private fun setWebView() {
-        val webSettings = rpgwebview.settings
-        webSettings.javaScriptEnabled = true
-        webSettings.allowFileAccess = true
-        webSettings.allowContentAccess = true
-        webSettings.domStorageEnabled = true
-        webSettings.databaseEnabled = true
-        webSettings.cacheMode = WebSettings.LOAD_DEFAULT
-        webSettings.allowFileAccessFromFileURLs = true
-        webSettings.allowUniversalAccessFromFileURLs = true
-        webSettings.useWideViewPort = true
-        webSettings.loadWithOverviewMode = true
-        webSettings.setSupportZoom(true)
-        webSettings.builtInZoomControls = true
-        webSettings.displayZoomControls = false
-        webSettings.mediaPlaybackRequiresUserGesture = false
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
-            webSettings.mediaPlaybackRequiresUserGesture = false
-        }
-
-        rpgwebview.webViewClient = object : WebViewClient() {
-            override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
-                view.loadUrl(url)
-                return false
-            }
-        }
-
-        rpgwebview.webChromeClient = WebChromeClient()
-
-        // Load your game folder from the internal storage
-        val gameDir = File(filesDir, "game")
-        val indexPath = "file://" + gameDir.absolutePath + "/index.html"
-        rpgwebview.loadUrl(indexPath)
-    }
-
-    private suspend fun downloadFile(url: String, file: File) {
-        withContext(Dispatchers.IO) {
-            val input: InputStream = URL(url).openStream()
-            val output = FileOutputStream(file)
-            input.copyTo(output)
-            input.close()
-            output.close()
-        }
-    }
-
-    private suspend fun downloadFilesFromUrl(folderUrl: String, destinationFolder: File) {
-        showToast("Đã truy cập mạng thành công")
-        withContext(Dispatchers.IO) {
-            // Download and save files
-            // Add the list of files available at the URL
-            val files = listOf("file1", "file2", "file3")
-
-            for (file in files) {
-                val url = folderUrl + file
-                val destinationFile = File(destinationFolder, file)
-                downloadFile(url, destinationFile)
-            }
-        }
     }
 
     @Suppress("DEPRECATION")
